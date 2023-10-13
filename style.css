@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gabarito', sans-serif;
+    
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    justify-content: space-between;
+
+z-index: 99;
+    display: flex;
+
+}
+#navleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navleft img{
+    height: 26px;
+    width: 100%;
+    padding-left: 130px;
+    margin-top: 10px;
+    
+
+}
+#navright {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 33px;
+    padding-right: 80px;
+    margin-top: 9px;
+    
+}
+#navright h4{
+    
+  font-size: 20px;
+  font-weight: 600;
+
+
+}
+
+
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+    }
+
+    #main{
+     position: relative;
+    }
+
+    #left{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      padding-top: 210px;
+      padding-left: 170px;
+    }
+    #left h1{
+        font-size: 120px;
+        color: white;
+    }
+    #left p{
+       
+        color: white;
+        font-size: 26px;
+        padding-left: 20px;
+      
+    }
+    #leftbottom{
+        padding-top: 110px;
+        padding-left: 10px;
+      
+        position: relative;
+
+    }
+    #lbottom1{
+        color: white;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding-left: 8px;
+        border-right: 1px solid white;
+        padding-right: 15px;
+    }
+    #lbottom1 h3{
+       
+       
+        font-size: 17px;
+        gap: 10px;
+    }
+    #lbottom1 span {
+        font-size: 11px;
+        padding-top: 8px;
+      
+    }
+    #lbottom2 p{
+        font-size: 11px;
+        padding-left: 170px;
+        width: 90%;
+        line-height: 16px;
+    }
+    #right{
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        display: flex;
+        top: 140px;
+        left:600px;
+
+    }
+   #right #img1{
+    /* yeh teen features se picture div ko puri tarah se cover kr leti h */
+    height: 350px;
+  
+ width: 200px;
+  padding: 10px;
+   border-radius: 50px;
+    
+     
+    }
+    #right #img2{
+        /* yeh teen features se picture div ko puri tarah se cover kr leti h */
+        height: 350px;
+      
+     width: 200px;
+      
+      padding: 10px;
+       
+       border-radius: 50px;
+        
+         
+        }
+        #right #img3{
+            /* yeh teen features se picture div ko puri tarah se cover kr leti h */
+            height: 350px;
+          
+         width: 200px;
+          padding: 10px;
+          
+           border-radius: 50px;
+            
+             
+            }
